@@ -1,3 +1,5 @@
+===============================================================================
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -12,13 +14,15 @@ setlocale(LC_ALL,"portuguese");
 printf("digite um numero. \n");
 scanf("%f",&n1);
 
-if(n1 > 10)
-{
-printf("seu número e maior");
-}
-else
-{
-printf("seu número e menor");
+if(n1 == 10){
+printf("Seu número é igual a 10");
+}else{
+    if(n1 > 10){
+       printf("Seu número é maior que 10");
+    }else{
+        printf("Seu número é menor que 10");
+    }
 }
 return 0;
 }
+================================================================================
