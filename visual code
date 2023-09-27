@@ -26,4 +26,13 @@ int main(){
     printf("Segunda nota %.1f \n ",n2);
     printf("sua media e %.1f \n  ",media);
 
+    if(media>=7)
+    {
+        printf("voce foi aprovado");
+    }
+    else
+    {
+        printf("voce foi reprovado");
+    }
     return 0;
+}
