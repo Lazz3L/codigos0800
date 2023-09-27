@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+
+int main(){
+float n1;
+
+setlocale(LC_ALL,"portuguese");
+
+
+printf("digite um numero. \n");
+scanf("%f",&n1);
+
+if(n1 > 10)
+{
+printf("seu número e maior");
+}
+else
+{
+printf("seu número e menor");
+}
+return 0;
+}
